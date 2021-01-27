@@ -34,16 +34,23 @@ class T1 extends Thread{
 
 class T2 extends Thread{
     Object object= new Object();
-    @SneakyThrows
     public void run(){
-        Thread.sleep(2000);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         System.out.println(System.currentTimeMillis()+" :T2 启动!");
 
         System.out.println(System.currentTimeMillis()+"T2随机通知一条线程");
         object.notify();
         System.out.println(System.currentTimeMillis()+"T2end");
-        Thread.sleep(2000);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
     }
 }

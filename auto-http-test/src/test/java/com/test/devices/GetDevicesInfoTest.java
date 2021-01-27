@@ -7,11 +7,8 @@ import com.api.http.common.TestData;
 import com.api.utils.utils;
 import com.imlp.devices.DevicesListServiceImpl;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Assert;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvFileSource;
 import org.mockito.Mockito;
+import org.testng.Assert;
 
 import java.io.IOException;
 
@@ -22,7 +19,7 @@ public class GetDevicesInfoTest implements TestData, ApiPath {
     static String userCode;
     DevicesListServiceImpl devicesListService =new DevicesListServiceImpl();
 
-    @BeforeEach
+//    @BeforeEach
     public  void setUp() throws IOException {
         JSONObject userInfo = utils.getUserInfo(TEST_ACCOUNT, TEST_PASSWORD);
         log.info("userInfo is {}",userInfo);
@@ -31,8 +28,8 @@ public class GetDevicesInfoTest implements TestData, ApiPath {
 
     }
 
-    @ParameterizedTest
-    @CsvFileSource(resources ="/data/test/devices/getdevicesinfo.csv",numLinesToSkip = 1)
+//    @ParameterizedTest
+//    @CsvFileSource(resources ="/data/test/devices/getdevicesinfo.csv",numLinesToSkip = 1)
     public void getOnlineDevicesInfo(String machineCode) throws IOException {
         GetDevicesInfo getDevicesInfo = new GetDevicesInfo();
         getDevicesInfo.setMachineCode(machineCode);
@@ -54,8 +51,8 @@ public class GetDevicesInfoTest implements TestData, ApiPath {
 
     }
 
-    @ParameterizedTest
-    @CsvFileSource(resources ="/data/test/devices/getdevicesinfo.csv",numLinesToSkip = 1)
+//    @ParameterizedTest
+//    @CsvFileSource(resources ="/data/test/devices/getdevicesinfo.csv",numLinesToSkip = 1)
     public void getOfflineDevicesInfo(String machineCode) throws IOException {
         String mockResult ="{\"code\":101,\"message\":\"invalid parameter\",\"requestId\":\"1234567890\",\"data\":{\"asrResult\":\"null\"}}";
         Mockito.when(devicesListService.getDevicesInfo(Mockito.any(GetDevicesInfo.class))).thenReturn(mockResult);

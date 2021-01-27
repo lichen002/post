@@ -6,8 +6,8 @@ import com.api.http.common.TestData;
 import com.api.utils.utils;
 import com.imlp.apply.ApplyServiceImlp;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 import javax.annotation.Resource;
 import java.io.IOException;

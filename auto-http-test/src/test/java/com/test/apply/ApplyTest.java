@@ -13,20 +13,16 @@ import com.api.http.common.TestData;
 import com.api.utils.utils;
 import com.imlp.apply.ApplyServiceImlp;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Assert;
-import org.junit.BeforeClass;
-import org.junit.Ignore;
-import org.junit.Test;
-import org.junit.jupiter.api.MethodOrderer;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.TestMethodOrder;
+import org.springframework.core.annotation.Order;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 import static java.lang.Thread.sleep;
 
 
 @Slf4j
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ApplyTest implements TestData, ApiPath {
     static long userId;
     static String userCode;

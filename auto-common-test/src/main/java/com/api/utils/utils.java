@@ -17,8 +17,8 @@ import com.api.entity.devices.GetDevicesInstallApply;
 import com.api.entity.login.LoginOpen;
 import com.api.http.common.HttpDelegate;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.poi.ss.usermodel.*;
-import org.junit.jupiter.params.provider.Arguments;
+//import org.apache.poi.ss.usermodel.*;
+//import org.junit.jupiter.params.provider.Arguments;
 
 import java.io.*;
 import java.sql.*;
@@ -102,43 +102,43 @@ public class utils {
     }
 
 
-    /**
-     *
-     * @param excelFullPath
-     * @param sheetName
-     * @return
-     */
+////    /**
+////     *
+////     * @param excelFullPath
+////     * @param sheetName
+////     * @return
+//     */
 
-    public static Stream<Arguments> getTestDataStreamFromExcelFile(String excelFullPath,
-                                                                   String sheetName){
-
-        Stream<Arguments> returnStream = Stream.empty();
-        //定义单元格数据格式处理对象
-        DataFormatter myDataFormatter = new DataFormatter();
-
-        //获取工作簿对象
-        try(Workbook excelFile = WorkbookFactory.create(new File(excelFullPath),null,true)) {
-            //获取工作表
-            Sheet excelSheet1 = excelFile.getSheet(sheetName);
-            //行数据处理，忽略标题行，行数据作为后续参数List
-            for(Row row: excelSheet1){
-                if(row.getRowNum()==0) {continue;}
-                ArrayList<Object> rowArrayList = new ArrayList<>();
-                //获取单元格数值，存入行List
-                for (Cell cell : row) {
-                    rowArrayList.add(myDataFormatter.formatCellValue(cell));
-                }
-                //转换为MethodSource的Arguments对象
-                Arguments arguments = Arguments.of(rowArrayList.toArray());
-                //Arguments转换为Stream
-                returnStream = Stream.concat(returnStream,Stream.of(arguments));
-            }
-            return returnStream;
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return returnStream;
-    }
+//    public static Stream<Arguments> getTestDataStreamFromExcelFile(String excelFullPath,
+//                                                                   String sheetName){
+//
+//        Stream<Arguments> returnStream = Stream.empty();
+//        //定义单元格数据格式处理对象
+//        DataFormatter myDataFormatter = new DataFormatter();
+//
+//        //获取工作簿对象
+//        try(Workbook excelFile = WorkbookFactory.create(new File(excelFullPath),null,true)) {
+//            //获取工作表
+//            Sheet excelSheet1 = excelFile.getSheet(sheetName);
+//            //行数据处理，忽略标题行，行数据作为后续参数List
+//            for(Row row: excelSheet1){
+//                if(row.getRowNum()==0) {continue;}
+//                ArrayList<Object> rowArrayList = new ArrayList<>();
+//                //获取单元格数值，存入行List
+//                for (Cell cell : row) {
+//                    rowArrayList.add(myDataFormatter.formatCellValue(cell));
+//                }
+//                //转换为MethodSource的Arguments对象
+//                Arguments arguments = Arguments.of(rowArrayList.toArray());
+//                //Arguments转换为Stream
+//                returnStream = Stream.concat(returnStream,Stream.of(arguments));
+//            }
+//            return returnStream;
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        return returnStream;
+//    }
 
 
     public static void applyReleaseNewVersion(int isForce) throws IOException, InterruptedException {

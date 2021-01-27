@@ -7,7 +7,7 @@ import com.api.http.common.TestData;
 import com.api.utils.utils;
 import com.imlp.devices.DevicesListServiceImpl;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 

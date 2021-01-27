@@ -8,8 +8,9 @@ import com.api.http.common.ApiPath;
 import com.api.http.common.TestData;
 import com.imlp.login.LoginServiceImpl;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Assert;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 import java.io.IOException;
 
 
