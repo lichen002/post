@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="506422d6-03df-476f-8d5a-99d4c6e4cd4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/testng.java" afterDir="false" />
+    <list default="true" id="506422d6-03df-476f-8d5a-99d4c6e4cd4a" name="Default Changelist" comment="update code">
+      <change afterPath="$PROJECT_DIR$/auto-common-test/src/SetConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-http-test/target/test-classes/com/test/user/testng.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-common-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto-common-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/user/SetUserInfoOpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/user/SetUserInfoOpen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/utils/utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/utils/utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto-common-test/target/classes/META-INF/auto-common-test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-common-test/target/classes/com/api/entity/user/SetUserInfoOpen.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-common-test/target/classes/com/api/entity/user/SetUserInfoOpen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto-common-test/target/classes/com/api/utils/utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-common-test/target/classes/com/api/utils/utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-http-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyUpdateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyUpdateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/devices/DevicesListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/devices/DevicesListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/devices/GetDevicesInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/devices/GetDevicesInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/exercise/exerciseWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/exercise/exerciseWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/login/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/UserInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/UserInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/testng.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/testng.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-http-test/src/test/resources/test/applydata/login/testdata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/src/test/resources/test/applydata/login/testdata.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto-http-test/target/test-classes/com/test/apply/ApplyListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/target/test-classes/com/test/apply/ApplyListTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto-http-test/target/test-classes/com/test/apply/ApplyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/target/test-classes/com/test/apply/ApplyTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto-http-test/target/test-classes/com/test/apply/ApplyUpdateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/target/test-classes/com/test/apply/ApplyUpdateTest.class" afterDir="false" />
@@ -25,7 +22,7 @@
       <change beforePath="$PROJECT_DIR$/auto-http-test/target/test-classes/com/test/exercise/T2.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/target/test-classes/com/test/exercise/T2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto-http-test/target/test-classes/com/test/login/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/target/test-classes/com/test/login/LoginTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto-http-test/target/test-classes/com/test/user/UserInfoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/target/test-classes/com/test/user/UserInfoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-http-test/target/test-classes/test/applydata/login/testdata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/auto-http-test/target/test-classes/test/applydata/login/testdata.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,56 +57,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/UserInfoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-554">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2671#2672#0" expanded="true" />
-                <element signature="e#2714#2715#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/http/common/ApiPath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/devices/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/http/common/HttpDelegate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="141" column="25" selection-start-line="141" selection-start-column="25" selection-end-line="141" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/login/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="416">
               <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -119,10 +69,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/http/common/SqlPath.java">
+        <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/utils/utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="212">
+              <caret line="316" column="30" selection-start-line="316" selection-start-column="18" selection-end-line="316" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getUserInfo#0;class#utils#0" />
+                <element signature="method#getApplyList#0;class#utils#0" />
+                <element signature="method#clearDevicesInstallApply#0;class#utils#0" />
+                <element signature="method#getDevicesInstllApply#0;class#utils#0" />
+                <element signature="method#applyReleaseNewVersion#0;class#utils#0" />
+                <element signature="method#appCmd#0;class#utils#0" />
+                <element signature="method#connSql#0;class#utils#0" />
+                <element signature="method#readFileByLine#0;class#utils#0" />
+                <element signature="e#12669#12804#0" />
+                <element signature="e#13116#13549#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/UserInfoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1492#1502#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/internal/MethodInvocationHelper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -130,41 +115,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/http/common/TestData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyTest.java">
+        <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/user/SetUserInfoOpen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-513">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/testng.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/internal/Invoker.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="460">
+              <caret line="426" selection-start-line="426" selection-end-line="426" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/resources/test/applydata/login/testdata.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-http-test/src/main/java/com/imlp/user/info/UserInfoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/http/common/ApiPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -203,9 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/apply/SearchApply.java" />
-        <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/devices/DevicesList.java" />
-        <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/devices/GetDevicesInfo.java" />
         <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/devices/GetDevicesInstallApply.java" />
         <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/apply/jeejio/review/ChangeClaim.java" />
         <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/apply/jeejio/review/AppCheckPass.java" />
@@ -227,7 +221,6 @@
         <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/exercise/Threadthree.java" />
         <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/exercise/people.java" />
         <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/apply/GetAppStatus.java" />
-        <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/http/common/ApiPath.java" />
         <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/devices/RelateMachineAndUser.java" />
         <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/http/common/SqlPath.java" />
         <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/exercise/ConnSql.java" />
@@ -242,8 +235,6 @@
         <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/exercise/DemoPay.java" />
         <option value="$PROJECT_DIR$/auto-http-perf/src/test/java/perf/exercise/Perf.java" />
         <option value="$PROJECT_DIR$/auto-common-test/pom.xml" />
-        <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/utils/utils.java" />
-        <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyListTest.java" />
         <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyTest.java" />
         <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyUpdateTest.java" />
         <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/devices/DevicesListTest.java" />
@@ -251,9 +242,15 @@
         <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/devices/GetDevicesInfoTest.java" />
         <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/exercise/exerciseWait.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/UserInfoTest.java" />
-        <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/testng.java" />
         <option value="$PROJECT_DIR$/auto-http-test/pom.xml" />
+        <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyListTest.java" />
+        <option value="$PROJECT_DIR$/auto-common-test/src/SetConfig.properties" />
+        <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/testng.java" />
+        <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/utils/utils.java" />
+        <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/user/SetUserInfoOpen.java" />
+        <option value="$PROJECT_DIR$/auto-http-test/src/test/resources/test/applydata/login/testdata.csv" />
+        <option value="$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/UserInfoTest.java" />
+        <option value="$PROJECT_DIR$/auto-common-test/src/main/java/com/api/http/common/ApiPath.java" />
       </list>
     </option>
   </component>
@@ -293,6 +290,85 @@
             <path>
               <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="post" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-common-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-common-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-common-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-common-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-common-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-common-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-common-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-common-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-common-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
@@ -372,6 +448,74 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-http-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-http-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-http-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-http-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-http-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-http-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="applydata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-jeejio-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-http-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="applydata" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -421,7 +565,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="TestNG.UserInfoTest.testSetUserInfo">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.devices.test" />
       <module name="auto-http" />
@@ -435,17 +579,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplyListTest.testApplyListInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="testng" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.user.testng" />
       <module name="auto-http" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.apply.*" />
+          <option name="PATTERN" value="com.test.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.apply" />
-      <option name="MAIN_CLASS_NAME" value="com.test.apply.ApplyListTest" />
-      <option name="METHOD_NAME" value="testApplyListInfo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testPhoneLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto-http" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.login" />
+      <option name="MAIN_CLASS_NAME" value="com.test.login.LoginTest" />
+      <option name="METHOD_NAME" value="testPhoneLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -489,31 +646,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testng.ets1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="auto-http" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.user" />
-      <option name="MAIN_CLASS_NAME" value="com.test.user.testng" />
-      <option name="METHOD_NAME" value="ets1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
-        <item itemvalue="TestNG.ApplyListTest.testApplyListInfo" />
-        <item itemvalue="TestNG.UserInfoTest.test1" />
-        <item itemvalue="TestNG.testng.ets1" />
         <item itemvalue="TestNG.UserInfoTest.testSetUserInfo" />
+        <item itemvalue="TestNG.LoginTest.testPhoneLogin" />
+        <item itemvalue="TestNG.UserInfoTest.test1" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.testng" />
       </list>
     </recent_temporary>
   </component>
@@ -552,7 +691,7 @@
       <workItem from="1611713101903" duration="3246000" />
       <workItem from="1611726277266" duration="115000" />
       <workItem from="1611726422589" duration="209000" />
-      <workItem from="1611726663876" duration="2663000" />
+      <workItem from="1611726663876" duration="20901000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1604899840239</created>
@@ -617,43 +756,50 @@
       <option name="project" value="LOCAL" />
       <updated>1608977259978</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update code">
+      <created>1611731054052</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611731054052</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApplyTest_testIsExistNotInstall - 2021.01.23 at 15h 08m 50s.xml">
-      <configuration name="ApplyTest.testIsExistNotInstall" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplyTest_testApplyOpen - 2021.01.23 at 17h 23m 37s.xml">
-      <configuration name="ApplyTest.testApplyOpen" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoTest_testSetUserInfo - 2021.01.26 at 18h 17m 44s.xml">
+    <history-entry file="UserInfoTest_testSetUserInfo - 2021.01.28 at 16h 16m 55s.xml">
       <configuration name="UserInfoTest.testSetUserInfo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserInfoTest_test1 - 2021.01.27 at 09h 50m 11s.xml">
-      <configuration name="UserInfoTest.test1" configurationId="TestNG" />
+    <history-entry file="UserInfoTest_testSetUserInfo - 2021.01.28 at 16h 26m 50s.xml">
+      <configuration name="UserInfoTest.testSetUserInfo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserInfoTest_test1 - 2021.01.27 at 11h 14m 12s.xml">
-      <configuration name="UserInfoTest.test1" configurationId="TestNG" />
+    <history-entry file="UserInfoTest_testSetUserInfo - 2021.01.28 at 16h 29m 57s.xml">
+      <configuration name="UserInfoTest.testSetUserInfo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserInfoTest_test1 - 2021.01.27 at 11h 19m 54s.xml">
-      <configuration name="UserInfoTest.test1" configurationId="TestNG" />
+    <history-entry file="UserInfoTest_testSetUserInfo - 2021.01.28 at 16h 31m 37s.xml">
+      <configuration name="UserInfoTest.testSetUserInfo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testng_ets1 - 2021.01.27 at 11h 23m 45s.xml">
-      <configuration name="testng.ets1" configurationId="TestNG" />
+    <history-entry file="LoginTest_testPhoneLogin - 2021.01.28 at 16h 35m 10s.xml">
+      <configuration name="LoginTest.testPhoneLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testng_ets1 - 2021.01.27 at 13h 55m 09s.xml">
-      <configuration name="testng.ets1" configurationId="TestNG" />
+    <history-entry file="UserInfoTest_testSetUserInfo - 2021.01.28 at 16h 47m 03s.xml">
+      <configuration name="UserInfoTest.testSetUserInfo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserInfoTest_test1 - 2021.01.27 at 13h 56m 26s.xml">
-      <configuration name="UserInfoTest.test1" configurationId="TestNG" />
+    <history-entry file="UserInfoTest_testSetUserInfo - 2021.01.28 at 16h 47m 52s.xml">
+      <configuration name="UserInfoTest.testSetUserInfo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApplyListTest_testApplyListInfo - 2021.01.27 at 14h 08m 28s.xml">
-      <configuration name="ApplyListTest.testApplyListInfo" configurationId="TestNG" />
+    <history-entry file="UserInfoTest_testSetUserInfo - 2021.01.28 at 16h 49m 35s.xml">
+      <configuration name="UserInfoTest.testSetUserInfo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UserInfoTest_testSetUserInfo - 2021.01.28 at 17h 05m 18s.xml">
+      <configuration name="UserInfoTest.testSetUserInfo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UserInfoTest_testSetUserInfo - 2021.01.28 at 17h 06m 22s.xml">
+      <configuration name="UserInfoTest.testSetUserInfo" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362279000" />
+    <option name="totallyTimeSpent" value="380517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
@@ -669,8 +815,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8667377" visible="true" weight="0.32968238" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8272201" weight="0.26396495" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8667377" visible="true" weight="0.25520262" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8272201" weight="0.33953997" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -718,7 +864,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/utils/utils.java</url>
-          <line>213</line>
+          <line>211</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -726,55 +872,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/InputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/exercise/operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/exercise/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/exercise/DemoPay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/apply/jeejio/open/GetDeveloperId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/apply/jeejio/open/PublistVersion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -862,9 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/resources/test/applydata/login/testdata.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-http-test/src/main/java/com/imlp/devices/GetDevicesInstallApplyImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -951,37 +1045,10 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/utils/utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="method#getUserInfo#0;class#utils#0" />
-            <element signature="method#getApplyList#0;class#utils#0" />
-            <element signature="method#clearDevicesInstallApply#0;class#utils#0" />
-            <element signature="method#getDevicesInstllApply#0;class#utils#0" />
-            <element signature="method#applyReleaseNewVersion#0;class#utils#0" />
-            <element signature="method#appCmd#0;class#utils#0" />
-            <element signature="method#connSql#0;class#utils#0" />
-            <element signature="method#readFileByLine#0;class#utils#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-http-test/src/main/java/com/imlp/apply/ApplyServiceImlp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyUpdateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,35 +1105,9 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/testng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test Results - testng_ets1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3648" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/UserInfoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-554">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2671#2672#0" expanded="true" />
-            <element signature="e#2714#2715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/http/common/ApiPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/http/common/HttpDelegate.java">
@@ -1086,10 +1127,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/http/common/TestData.java">
+    <entry file="file://$PROJECT_DIR$/auto-common-test/src/SetConfig.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state>
+          <caret column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/devices/test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1103,10 +1151,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/login/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyUpdateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        <state relative-caret-position="402">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1115,8 +1163,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/devices/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="323">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/testng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1125,10 +1183,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/apply/ApplyListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        <state relative-caret-position="1140">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-http-test/src/main/java/com/imlp/user/info/UserInfoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/login/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/http/common/TestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="426" selection-start-line="426" selection-end-line="426" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/entity/user/SetUserInfoOpen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/resources/test/applydata/login/testdata.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/http/common/ApiPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-common-test/src/main/java/com/api/utils/utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="316" column="30" selection-start-line="316" selection-start-column="18" selection-end-line="316" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getUserInfo#0;class#utils#0" />
+            <element signature="method#getApplyList#0;class#utils#0" />
+            <element signature="method#clearDevicesInstallApply#0;class#utils#0" />
+            <element signature="method#getDevicesInstllApply#0;class#utils#0" />
+            <element signature="method#applyReleaseNewVersion#0;class#utils#0" />
+            <element signature="method#appCmd#0;class#utils#0" />
+            <element signature="method#connSql#0;class#utils#0" />
+            <element signature="method#readFileByLine#0;class#utils#0" />
+            <element signature="e#12669#12804#0" />
+            <element signature="e#13116#13549#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-http-test/src/test/java/com/test/user/UserInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1492#1502#0" expanded="true" />
           </folding>
         </state>
       </provider>

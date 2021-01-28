@@ -58,7 +58,7 @@ public class ApplyListTest implements TestData, ApiPath {
     @Test
     public void testApplyLose() throws IOException {
         SearchApply searchApply = new SearchApply();
-        searchApply.setKeyword("聊天测试");
+        searchApply.setKeyword("聊天测试2");
         searchApply.setMachineCode(TEST_MACHINE_CODE);
         searchApply.setMachineTypeV("10008");
         searchApply.setUserId(userId);

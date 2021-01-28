@@ -22,9 +22,7 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.io.*;
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 import java.util.stream.Stream;
 
 import static com.api.http.common.ApiPath.*;
@@ -329,6 +327,41 @@ public class utils {
         bf.close();
         inputReader.close();
         return arrayList;
+    }
+
+
+
+    /**
+     * 读取配置文件
+     */
+    public static Properties getProperties(String file){
+        Properties properties = new Properties();
+        InputStream inputStream = null;
+        try {
+            inputStream = new FileInputStream(new File(file));
+            properties.load(inputStream);
+            inputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return properties;
+
+    }
+
+    /**
+     * 获取配置文件中所有的参数
+     * @param file
+     * @return
+     */
+    public static Map<String, String> getAllKeyValue(String file) {
+        Properties properties = getProperties(file);
+        Map<String, String> params=new HashMap<String, String>();
+        Set<Map.Entry<Object, Object>> entrySet = properties.entrySet();
+        for (Map.Entry<Object, Object> entry : entrySet) {
+            params.put(entry.getKey().toString(), entry.getValue().toString());
+        }
+        return params;
     }
 
 

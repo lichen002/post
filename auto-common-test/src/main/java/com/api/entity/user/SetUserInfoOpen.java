@@ -9,8 +9,6 @@ public class SetUserInfoOpen {
     private String userName;
     private long userId;
     private int status;
-    private String token;
-    private String sessionId;
 
 
     /**
